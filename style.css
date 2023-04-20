@@ -1,0 +1,64 @@
+/*Remove Browser style*/
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+nav{
+    width: 100%;
+    overflow: auto;
+    background-color: blue;
+}
+ul{
+    padding: 0%;
+    margin:0 0 0 250px;
+    list-style: none;
+} 
+
+li{
+    float: left;
+}
+li a{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block;
+    padding: 40px 20px;
+    text-decoration: none;
+    font-family: Arial;
+    color: black;
+    text-align: left;
+}
+li a:hover{
+    background: gray;
+    text-transform: uppercase;
+
+}
+.logo img{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+.cardtext-bg-dark img{
+    width: 100%;
+    height: 100%;
+    position: left;
+    top: 100;
+    left: 20;
+    }
+    .container{
+        width: 90px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: cyan;
+
+    }
+.clssecond img{
+    border-image-width: 100px;
+    width: 50%;
+    
+}
